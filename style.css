@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to left, #0e0042, #350101);
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    color: black;
+    margin-bottom: 25px;
+}
+
+legend{
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 4px;
+    text-align: center;
+    border: 2px solid rgba(255, 0, 0, 0.178);
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #0e0042, #350101);
+    color: rgba(255, 255, 255);
+}
+fieldset{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 0, 0, 0.178);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    top: 54%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 13px;
+}
+.container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    margin-right: 5px;
+}
+
+.subbox-1{
+    padding: 5px;
+    border: 2px solid #350101;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.subbox1{
+    display: inline-block;
+    right: 0;
+    padding: 5px;
+
+}
+.subbox2{
+    display: inline-block;
+    left: 0;
+    padding: 5px;
+
+}
+.subbox{
+    padding: 5px;
+    border: 2px solid #350101;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.img{
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footerp{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    font-size: 10px;
+    color: white;
+}
